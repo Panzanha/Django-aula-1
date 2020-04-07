@@ -1,0 +1,11 @@
+{% extends 'index.html' %}
+{% block content %}
+    <div>
+        <h1>teste</h1>
+        {{mensagem}}
+        {% for bixo in bixos %}
+            <h1>{{bixo.Nome_de_Bixo}}</h1>
+        {% endfor %}
+        {{mensagem}}
+    </div>
+{% endblock %}

@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>titulo</h1>
-   
-    <img src="{% static "app/templates/django.png" %}" alt="My image">
+    {% block content %} {% endblock %}
+    <img src="{% static "app/img/django.png" %}" alt="My image">
 </body>
 </html>

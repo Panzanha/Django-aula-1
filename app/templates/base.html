@@ -1,0 +1,11 @@
+{% extends 'index.html' %}
+{% block content %}
+    <div>
+        <h1>teste</h1>
+        {{mensagem_inicial}}
+        {% for x in lista %}
+            <h1>{{x}}</h1>
+        {% endfor %}
+        {{mensagem_final}}
+    </div>
+{% endblock %}
